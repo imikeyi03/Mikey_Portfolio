@@ -14,6 +14,7 @@ nav {
     text-align: center;
     padding: 10px 0;
     color: #FFFFFF;
+    font-weight: bold;
 }
 
 header {
@@ -34,9 +35,9 @@ header {
 
 
 h1 {
-    font-size: 48px;
+    font-size: 50px;
     margin-bottom: 5px;
-    margin-top: 50px;
+    margin-top: 30px;
     color: white;
 }
 
@@ -45,6 +46,7 @@ h2 {
     padding-bottom: 15px;
     color: #00A8E8;
     line-height: 1.5;
+    font-weight: medium;
 }
 
 h1, h2, section {
@@ -59,16 +61,15 @@ h3 {
 }
 
 h4 {
-    margin-top: 16px;
-    font-size: 24px;
+    margin-top: 30px;
+    font-size: 22px;
     color: #00A8E8;
 }
 
 
 p {
     color: #000000;
-    font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 
@@ -79,7 +80,7 @@ section {
 
 .project-thumbnail {
     display: block;
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 auto;
     border-radius: 25px;
 }
@@ -89,8 +90,12 @@ button {
     display: block;
     text-decoration: none;
     border: none;
-    padding: 1rem 2rem;
-    border-radius: 5px;
+    padding: 2rem 5rem;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color: #2F333B;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .tech {

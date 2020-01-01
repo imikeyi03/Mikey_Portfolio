@@ -46,6 +46,7 @@ h1 {
     margin-bottom: 5px;
     margin-top: 10px;
     color: white;
+    font-weight: bold;
 }
 
 h2 {
@@ -64,13 +65,15 @@ h1, h2, section {
 h3 {
     font-size: 38px;
     margin: 0;
-    color: #2F333B
+    color: #2F333B;
+    font-weight: bold;
 }
 
 h4 {
     margin-top: 30px;
     font-size: 22px;
     color: #00A8E8;
+    font-weight: bold;
 }
 
 

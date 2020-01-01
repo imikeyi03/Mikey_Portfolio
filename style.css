@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -15,6 +17,11 @@ nav {
     padding: 10px 0;
     color: #FFFFFF;
     font-weight: bold;
+}
+
+.logo {
+    width: 50px;
+    width: 50px;
 }
 
 header {
@@ -37,7 +44,7 @@ header {
 h1 {
     font-size: 50px;
     margin-bottom: 5px;
-    margin-top: 30px;
+    margin-top: 10px;
     color: white;
 }
 
@@ -101,3 +108,20 @@ button {
 .tech {
     margin-bottom: 30px;
 }
+
+
+.social {
+    display: flex;
+    font-size: 14px;
+}
+
+.social li {
+    align-self: center;
+    margin: 5px 20px 20px 0;
+    color: white;
+}
+
+.social-links {
+    color: white;
+}
+

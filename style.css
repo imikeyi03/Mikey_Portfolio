@@ -62,7 +62,7 @@ h1, h2, section {
 
 
 h3 {
-    font-size: 48px;
+    font-size: 38px;
     margin: 0;
     color: #2F333B
 }
@@ -82,46 +82,160 @@ p {
 
 
 section {
+    margin-top: 30px;
     margin-bottom: 50px;
+}
+
+.profile {
+    display: block;
+    border-radius: 150px;
+    margin: 50px auto;
 }
 
 .project-thumbnail {
     display: block;
-    max-width: 60%;
+    width: 80%;
     margin: 0 auto;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 button {
-    margin: 25px auto;
+    margin: 35px auto;
     display: block;
     text-decoration: none;
     border: none;
-    padding: 2rem 5rem;
-    border-radius: 15px;
+    padding: 1rem 3rem;
+    border-radius: 10px;
     color: #FFFFFF;
     background-color: #2F333B;
     font-weight: bold;
     font-size: 16px;
 }
 
-.tech {
-    margin-bottom: 30px;
+/* Grow CSS transition class */
+.animate {
+    transition: all .2s ease-in-out;
 }
 
 
+button:hover {
+    background-color:#00A8E8;
+    transform: scale(1.2);
+}
+
+li:hover {
+    transform: scale(1.2);
+}
+
+/* Technologies used */
+.tech {
+    margin-bottom: 40px;
+}
+
+.tech i {
+    padding-right: 10px;
+}
+
+
+/* Social contact icons container */
 .social {
     display: flex;
     font-size: 14px;
 }
 
+
+
+/* Social Items */
 .social li {
     align-self: center;
     margin: 5px 20px 20px 0;
-    color: white;
 }
 
+
+/* icon style */
 .social-links {
     color: white;
 }
 
+footer {
+    background-color:#2F333B;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+footer p {
+    margin-bottom: 0;
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+
+    header {
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 90px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    h1, h2,.social,section {
+        padding: 0 150px;
+    }
+
+    .project-thumbnail {
+        height: 400px;
+        width: 600px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    header {
+        height: 500px;
+    }
+
+    h1 {
+        font-size: 120px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    
+    h3 {
+        font-size: 90px;
+    }
+
+    section p {
+        padding-right: 300px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    .profile {
+        margin: 80px auto 150px auto;
+    }
+}

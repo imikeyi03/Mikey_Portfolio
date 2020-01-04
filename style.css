@@ -103,17 +103,22 @@ section {
     border-radius: 15px;
 }
 
-button {
+.btn-style {
     margin: 35px auto;
     display: block;
     text-decoration: none;
     border: none;
-    padding: 1rem 3rem;
+    padding: 20px 40px;
     border-radius: 10px;
     color: #FFFFFF;
     background-color: #2F333B;
     font-weight: bold;
     font-size: 16px;
+}
+
+.live-site-btn {
+    padding: 20px 55px;
+    background-color: #00A8E8;
 }
 
 /* Grow CSS transition class */
@@ -122,9 +127,10 @@ button {
 }
 
 
-button:hover {
+input[type="submit"]:hover {
     transform: scale(1.2);
 }
+
 
 li:hover {
     transform: scale(1.2);

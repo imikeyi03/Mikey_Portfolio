@@ -53,7 +53,7 @@ h1 {
 h2 {
     font-size: 14px;
     padding-bottom: 15px;
-    color: #00A8E8;
+    color: #0079A8;
     line-height: 1.5;
     font-weight: medium;
 }
@@ -73,7 +73,7 @@ h3 {
 h4 {
     margin-top: 30px;
     font-size: 22px;
-    color: #00A8E8;
+    color: #0079A8;
     font-weight: bold;
 }
 
@@ -118,7 +118,7 @@ section {
 
 .live-site-btn {
     padding: 20px 55px;
-    background-color: #00A8E8;
+    background-color: #0079A8;
 }
 
 /* Grow CSS transition class */
@@ -184,7 +184,7 @@ footer p {
 
 
 /* Tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 780px) {
 
     header {
         height: 400px;
@@ -210,10 +210,6 @@ footer p {
         padding: 0 150px;
     }
 
-    .project-thumbnail {
-        height: 400px;
-        width: 600px;
-    }
 
 
 }
@@ -251,5 +247,9 @@ footer p {
 
     .profile {
         margin: 80px auto 150px auto;
+    }
+
+    .project-thumbnail {
+        max-width: 900px;
     }
 }
